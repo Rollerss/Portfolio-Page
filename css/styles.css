@@ -74,17 +74,18 @@ body {
 
 .img-text .subtitle{
     transition: 1s;
-    font-weight: 700;
+    font-weight: 600;
     color: transparent;
 }
 
-.img-text:hover .subtitle {
+.portfolio-item:hover .subtitle {
     color: red;
 }
 
 .img-darken {
     transition: 1s;
     filter: brightness(10%);
+    transform: rotateY(180deg);
 }
 
 .active-nav-link {
