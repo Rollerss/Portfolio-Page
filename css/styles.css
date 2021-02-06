@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: 'Roboto Mono', monospace, sans-serif;
+    background-color: rgb(72, 67, 110);
 }
 
 .container {
@@ -29,13 +30,18 @@ body {
     border-bottom: 1px solid transparent;
     text-decoration: none;
     transition: border-bottom 0.5s;
-    color: #8a8a8a;
     transition: color 0.5s;
 }
 
 .navbar-link:hover {
     border-bottom: 1px solid black;
     color: black;
+}
+
+.navbar-link,
+.profile-content h1,
+.portfolio-item:hover .subtitle {
+    color: rgb(50, 236, 26);
 }
 
 /* Portfolio styles */
@@ -78,9 +84,6 @@ body {
     color: transparent;
 }
 
-.portfolio-item:hover .subtitle {
-    color: red;
-}
 
 .img-darken {
     transition: 1s;
@@ -105,8 +108,4 @@ body {
 
 .profile-content {
     padding: 30px;
-}
-
-.profile-content h1 {
-    color: red;
 }
