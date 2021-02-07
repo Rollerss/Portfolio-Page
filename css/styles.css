@@ -38,9 +38,11 @@ body {
     color: black;
 }
 
+.brand,
 .navbar-link,
 .profile-content h1,
-.portfolio-item:hover .subtitle {
+.portfolio-item:hover .subtitle, 
+.portfolio-item:hover .description {
     color: rgb(50, 236, 26);
 }
 
@@ -74,19 +76,19 @@ body {
 }
 
 .logo {
-    width: 75%;
+    width: 100px;
     margin-bottom: 20px;
 }
 
-.img-text .subtitle{
-    transition: 1s;
+.subtitle, 
+.description {
+    transition: 0.5s;
     font-weight: 600;
     color: transparent;
 }
 
-
 .img-darken {
-    transition: 1s;
+    transition: 0.8s;
     filter: brightness(10%);
     transform: rotateY(180deg);
 }
