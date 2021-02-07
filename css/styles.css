@@ -53,6 +53,24 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+.content-about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (min-width: 376px) and (max-width: 775px) {
+    .portfolio-items {
+        grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 375px) {
+    .portfolio-items, 
+    .content-about {
+        grid-template-columns: 1fr;
+  }
+}
+
 .portfolio-item {
     position: relative;
     display: flex;
@@ -99,13 +117,9 @@ body {
 }
 
 /* About page styles */
-.content-about {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
 .profile-img {
     width: 100%;
+    max-width: 600px;
 }
 
 .profile-content {
